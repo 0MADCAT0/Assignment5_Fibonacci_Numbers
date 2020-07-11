@@ -12,13 +12,12 @@ def fibonacci(num):
     y=1
     x=0
     c=0
-    while i > 0:
+    while i > 0 and c != num:
         c=x+y
         ara.append(c)
         x, y = y, c
         i -=1
-        if c == num:
-            break
+        
     return  print(ara) 
 
 num = 55
